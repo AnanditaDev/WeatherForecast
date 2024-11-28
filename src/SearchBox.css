@@ -38,23 +38,17 @@
 }
 
 @media(max-width:800px){
+    .SearchBox{
+        width:100%;
+    }
     .input-box{
-        width: 75%;
+        width: 15rem;
        align-self: center;
     }
 
     .search-btn{
-        width: 20%;
+        width: 6rem;
     }
 }
 
-@media(min-width:800px){
-    .input-box{
-        width: 75%;
-       align-self: center;
-    }
 
-    .search-btn{
-        width: 20%;
-    }
-}
