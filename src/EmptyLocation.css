@@ -1,0 +1,23 @@
+.emptyImg-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 30rem;
+       
+        border: 1px solid transparent;
+        border-radius: 5rem;
+    }
+}
+
+@media(max-width:800px){
+    .emptyImg-box{
+        
+        img{
+            height: 100%;
+            border: 1px solid transparent;
+            border-radius: 5rem;
+            width: 60%;
+        }
+    }
+}

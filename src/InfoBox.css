@@ -1,0 +1,73 @@
+.InfoBox{
+   text-align: center;
+}
+
+.head-contentBox{
+    display: flex;
+    justify-content: center;
+}
+
+.head-content{
+    height: 21.5rem;
+    width: 43%;
+    background-color: rgb(225, 219, 219,0.4);
+    border: 1px solid transparent;
+    border-radius: 4rem;
+}
+
+#head-icon{
+    font-size: 5rem !important;
+}
+
+#city-name{
+    font-size: 4.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-contentBox{
+    margin-top: 4rem;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.sub-content{
+    height: 11rem;
+    width: 15rem;
+    background-color: rgb(225, 219, 219,0.4);
+    margin-top: auto;
+}
+
+
+
+@media (max-width:800px){
+    .head-content{
+        height: 30rem;
+        width: 90%;
+    }
+
+    .sub-contentBox{
+       display: grid;
+     
+    }
+
+    .sub-content{
+        margin-bottom: 4rem;
+    }
+
+    #city-name{
+        font-size: 2.5rem;
+       
+    }
+}
+
+@media(min-width:800px ) and (max-width:1350px){
+    .head-content{
+        height: 35rem;
+       width: 45%;
+    }
+    #city-name{
+        font-size: 3.5rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
